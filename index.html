@@ -1,0 +1,162 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+<link href="C:\Users\coden\OneDrive\Desktop\qKPodcastSurvey\style.css" rel = "stylesheet" type="text/css" >
+<div class="container">
+  <header>
+<h1 id="title" class="text-center"> QK Podcast Survey! </h1>
+    <br>
+
+<p id="description"> Cliff is itching to learn what listeners think of the pod pod.   </p>
+      </header>
+  <br>
+  
+ <form id="survey-form">
+   <div class="form-group">
+     <label id="name-label" for="name">Name</label>
+     <input 
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Superhero name"
+            required
+      />
+   </div>
+   <div class="form-group">
+     <br>
+     <label id="email-label" for="email">Email Address</label>
+     <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Fake address for giggles"
+            required
+            />
+   </div>
+   <br>
+   <div class="form-group">
+     <label id="number-label" for="number">How long have you know Clare or Tiff?</label>
+     <input
+            type="number"
+            name="experience"
+            id="number"
+            min="0"
+            max="1000"
+            class="form-control"
+            placeholder="In years"
+            required
+            />
+   </div>
+   <div class="form-group">
+     <p>Which episode has been your favorite?</p>
+     <select id="dropdown" name="role" class="form-control" required>
+       <option disabled selected value>Episodes</option>
+       <option value="hugh">Hugh Hephner</option>
+       <option value="tila">Tila Tequlia</option>
+       <option value="shia">Shia LaBeouf</option>
+       <option value="brittany">Brittany Murphy</option>
+       <option value="children">Children of God</option>
+       <option value="superior">Superior Universal Alignment</option>
+       <option value="manson">The Manson Family</option>
+       <option value="church">Church of the Firstborn</option>
+       <option value="caerus">Caerus</option>
+       <option value="dionysus">Dionysus</option>
+       <option value="poseidon">Poseidon</option>
+       <option value="nemesis">Nemesis</option>
+       <option value="osr">Ohio State Reformatory</option>
+       <option value="graceland">Graceland Cementary</option>
+       <option value="lalaurie">LaLaurie Mansion</option>
+       <option value="dragsholm">Dragsholm Castle</option>
+     </select>
+       </div>
+   
+  <div id="recommendation" class="form-group">
+    <p>Would you recommend Questionable Knowledge to a friend?</p>
+    <label>
+      <input
+            type="radio"
+             name="user-recommend"
+             value="definitely"
+             class="input-radio"
+             checked
+             />Are you kidding? YES.</label>
+    <br> <br>
+    <label>
+      <input
+            type="radio"
+             name="user-recommend"
+             value="maybe"
+             class="input-radio"
+             checked
+             />Depends.</label>
+    <br> <br>
+    <label>
+      <input
+            type="radio"
+             name="user-recommend"
+             value="no"
+             class="input-radio"
+             checked
+             />Nope, I'm keeping this gem to myself.</label>
+   </div>
+   
+  
+  <div class="form-group">
+    <p> What is your favorite part of the Questionable Knowledge Podcast?
+    <span class="insight">(Mark all that apply)</span>
+      </p>
+    
+    <label
+      ><input
+             name="prefer"
+             value="friendship"
+             type="checkbox"
+             class="input-checkbox"
+              />Friendship</label>
+    <label>
+      <input
+             type="checkbox"
+             name="prefer"
+             value="comedy"
+             class="input-checkbox"/>Laughs & Abs</label>
+   
+    <label>
+      <input
+             type="checkbox"
+             name="prefer"
+             value="education"
+             class="input-checkbox"/>Learning</label>
+   
+    
+    <label>
+      <input
+             type="checkbox"
+             name="prefer"
+             value="sounds"
+             class="input-checkbox"/>Background Noise</label>
+    
+    <label
+      ><input
+             name="prefer"
+             value="other"
+             type="checkbox"
+             class="input-checkbox"
+              />Other</label>
+    <label>
+    
+   <div class="form-group">
+     <p>Any comments or suggestions?</p>
+     <textarea
+               id="comments"
+               class="input-textarea"
+               name="comment"
+               placeholder="Share your thoughts!"    
+               ></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+     </form>
+  </div>
+  </body>

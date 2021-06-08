@@ -1,0 +1,45 @@
+body {
+    background: #125cdb;
+  }
+  
+  
+  .text-center {
+    border: 5px groove yellow;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 30px;
+    background: #d91204;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  #description {
+    border:5px groove red;
+    text-align: center;
+    background: #ebe721;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  
+  #survey-form {
+    border:5px groove red;
+    text-align: left;
+    background: #ebe721;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  #recommendation {
+    line-height: 0.6;
+  }
